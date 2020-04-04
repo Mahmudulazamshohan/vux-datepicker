@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vux-datepicker />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VuxDatepicker from './components/VuxDatepicker'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VuxDatepicker
   }
 }
 </script>

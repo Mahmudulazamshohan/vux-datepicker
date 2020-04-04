@@ -1,14 +1,17 @@
 {
   "name": "vux-datepicker",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name vuex-datepicker ./src/bundle.js"
   },
+  "main": "./dist/vuex-datepicker.common.js",
   "dependencies": {
     "core-js": "^3.6.4",
+    "moment": "^2.24.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -45,5 +48,19 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "keywords": [
+    "vue",
+    "datepicker",
+    "date-picker",
+    "calendar",
+    "vux"
   ]
 }
