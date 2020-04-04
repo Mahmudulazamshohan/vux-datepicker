@@ -8,7 +8,7 @@ A datepicker Vue component. Compatible with Vue 2.x
 - [Props](#available-props)
 - [Events](#events)
 - [Date Formatting](#date-formatting)
-- [Translations / Language](#translations)
+- [Translations / Language](#language)
 
 NB. Vue 2.x was supported up to version v0.1.0. If you want to use this component with Vue 1.x you can install with `npm install vux-datepicker@0.1.0`
 ## Demo
@@ -112,7 +112,7 @@ NB. This is not very robust at all - use at your own risk! Needs a better implem
 | yyyy  | four digit year        | 2016        |
 
 
-
+#### Language
 Available languages
 
 | Abbr        | Language         |          |
