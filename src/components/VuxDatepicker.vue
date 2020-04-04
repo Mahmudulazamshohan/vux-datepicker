@@ -79,7 +79,6 @@ import moment from 'moment'
 export default {
   name: 'DatePicker',
   props: {
-    current: {},
     format: {
       type: String,
       required: false,
