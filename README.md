@@ -14,8 +14,8 @@ NB. Vue 2.x was supported up to version v0.1.0. If you want to use this componen
 ## Demo
 To view demo examples locally clone the repo and run `npm install && npm run serve`
 
-![alt text](https://github.com/Mahmudulazamshohan/vux-datepicker/blob/master/screenshots/datepicker1.PNG "Image")
-![alt text](https://github.com/Mahmudulazamshohan/vux-datepicker/blob/master/screenshots/datepicker2.PNG "Image")
+![alt text](https://raw.githubusercontent.com/Mahmudulazamshohan/vux-datepicker/master/screenshots/datepicker1.PNG "Image")
+![alt text](https://raw.githubusercontent.com/Mahmudulazamshohan/vux-datepicker/master/screenshots/datepicker2.PNG "Image")
 
 ## Install
 ``` bash
@@ -24,6 +24,7 @@ npm install vux-datepicker --save
 ## Usage
 ```
 import VueDatepicker  from 'vux-datepicker'
+import 'font-awesome/css/font-awesome.css'
 import 'vux-datepicker/vuex-datepicker.css'
 Vue.use(VueDatepicker)
 ```
