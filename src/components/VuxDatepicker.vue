@@ -10,7 +10,7 @@
           class="date-picker-header-root" :style="{background:`#fff !important`}">
           <div class="date-picker-header">
             <button @click="previousMonth" :style="{float:'left',background:`${color} !important`}" class="date-picker-prev-btn">
-              <img src="../assets/back.svg" alt="" style="width: 20px;height: 20px;">
+             <i class="fa fa-angle-left fa-2x" style="width: 18px;color: white;font-weight: bold;"></i>
             </button>
           </div>
           <div>
@@ -25,7 +25,7 @@
             <button @click="nextMonth"
                     :style="{float:'right',background:`${color} !important`}"
                     class="date-picker-next-btn">
-              <img src="../assets/right-arrow.svg" alt="" style="width: 20px;height: 20px;">
+              <i class="fa fa-angle-right fa-2x" style="width: 18px;color: white;font-weight: bold;"></i>
             </button>
           </div>
 

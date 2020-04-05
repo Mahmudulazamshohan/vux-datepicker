@@ -1,13 +1,13 @@
 {
   "name": "vux-datepicker",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "private": false,
   "description": "A simple datepicker component",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-bundle": "vue-cli-service build --target lib --name vuex-datepicker ./src/bundle.js"
+    "build-bundle": "vue-cli-service build --target lib --name vuex-datepicker ./src/components/index.js"
   },
   "main": "./dist/vuex-datepicker.common.js",
   "author": "Mahmudul azam",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "font-awesome": "^4.7.0",
     "moment": "^2.24.0",
     "vue": "^2.6.11"
   },
