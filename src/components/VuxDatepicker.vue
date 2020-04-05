@@ -132,7 +132,7 @@ export default {
   },
   created () {
     var yearFormat = this.date.format(this.format)
-    console.log(yearFormat)
+    // console.log(yearFormat)
 
     var vm = this
     this.monthNames = Array.apply(0, Array(12))
@@ -221,7 +221,7 @@ export default {
       var yearsList = []
       // eslint-disable-next-line no-redeclare
       for (var i = 0; i < 6; i++) {
-        console.log(6 - i)
+        // console.log(6 - i)
         yearsList.push(moment(yearFormat).subtract(6 - i, 'years'))
       }
       // eslint-disable-next-line no-redeclare

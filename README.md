@@ -10,7 +10,7 @@ A datepicker Vue component. Compatible with Vue 2.x
 - [Date Formatting](#date-formatting)
 - [Translations / Language](#language)
 
-NB. Vue 2.x was supported up to version v0.1.0. If you want to use this component with Vue 1.x you can install with `npm install vux-datepicker@0.1.0`
+NB. Vue 2.x was supported up to version v0.1.0. If you want to use this component with Vue 1.x you can install with `npm install vux-datepicker@0.2.0`
 ## Demo
 To view demo examples locally clone the repo and run `npm install && npm run serve`
 
