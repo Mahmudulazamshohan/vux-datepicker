@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vux-datepicker lang="bn"/>
+    <vux-datepicker/>
   </div>
 </template>
 
